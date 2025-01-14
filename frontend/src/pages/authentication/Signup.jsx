@@ -32,7 +32,7 @@ function Signup() {
             return handleError('Name, email, and password are required');
         }
         try {
-            const url = `https://game-app-bkd.vercel.app/auth/signup`; // Corrected URL
+            const url = `https://backend-iota-orcin-78.vercel.app/auth/signup`; // Corrected URL
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
