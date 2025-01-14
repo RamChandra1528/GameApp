@@ -28,7 +28,7 @@ function Login() {
       return handleError("Email and password are required");
     }
     try {
-      const url = `http://localhost:8081/auth/login`; // Corrected URL
+      const url = `https://game-app-bkd.vercel.app/auth/login`; // Corrected URL
       const response = await fetch(url, {
         method: "POST",
         headers: {

@@ -32,7 +32,7 @@ function Signup() {
             return handleError('Name, email, and password are required');
         }
         try {
-            const url = `http://localhost:8081/auth/signup`; // Corrected URL
+            const url = `https://game-app-bkd.vercel.app/auth/signup`; // Corrected URL
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
